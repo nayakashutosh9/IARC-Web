@@ -4,7 +4,7 @@ body,html{
 			font-size: 20px;
 			font-family: 'Open Sans', serif;
 			line-height: 1.8em;
-			color: #FFF;
+			color: #6cacf7;
 		}
 		.img{
 			background-image: url('../images/Drones.gif');
@@ -34,7 +34,7 @@ body,html{
 		}
 
 		.text1 .border{
-		  	color:#c1986a;
+		  	color:#f7df75;
 		  	padding:20px;
 		  	font-weight: bold;
 		  	background-color: black;
@@ -43,7 +43,7 @@ body,html{
 		}
 
 		h2{
-			color: #c1986a;
+			color: #f7df75;
 			font-family: 'Titillium Web';	
 		}
 
@@ -73,14 +73,14 @@ body,html{
 		.sl{
 			text-decoration: none;
 			display: block;
-			color: white;
+			color: #6cacf7;
 		}
 
-		.fa {
-		  	padding: 20px;
+		/*.fa {
+		  	padding: 10px;
 		  	font-size: 30px;
-		  	width: 200px;
-		  	height: 60px;
+		  	width: 100px;
+		  	height: 50px;
 		  	margin: 5px 20px;
 		  	border-radius: 50%;
 		  	display: block;
@@ -111,17 +111,20 @@ body,html{
 		.fa-linkedin {
 		  	background: #007bb5;
 		  	color: white;
-		}
+		}*/
 
 		.a:hover{
-			color: white ;
+			color: #6cacf7 ;
 			font-size: 25px;
 		}
 		/*style="color: #c1986a;"*/
 		.a{
-			color: #c1986a;
+			color: #f7df75;
 		}
 
+		.fa{
+			padding: 25px;
+		}
 		@media(max-width: 568px){
 			.hc{
 				width: 150px;
@@ -136,7 +139,7 @@ body,html{
 			.fa {
 			  	padding: 10px;
 			  	font-size: 20px;
-			  	width: 140px;
+			  	width: 70px;
 			  	height: 40px;
 			  	margin: 5px 20px;
 			  	border-radius: 50%;
@@ -155,9 +158,17 @@ body,html{
 			top: 10%;
 			transform: rotateX(360deg);
 			transition: 0.5s;
-			color: white !important;
+			color: #6cacf7 !important;
 		}
 
 		.col-lg-3 img{
 			height: 400px;
 		}
+
+		.navbar-inverse .navbar-toggle .icon-bar {
+		    background-color: #f7df75;
+		}
+
+		.navbar-toggle {
+   			margin-top: 15px;
+   		}	
