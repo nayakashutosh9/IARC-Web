@@ -7,7 +7,7 @@ body,html{
 			color: #6cacf7;
 		}
 		.img{
-			background-image: url('../images/Drones.gif');
+			background-image: url('../images/team1.png');
 			background-size: cover;
 			min-height: 98%;
 			background-repeat: no-repeat;
@@ -131,7 +131,7 @@ body,html{
 				height: 90px;
 			}
 			body{
-				font-size: 15px;
+				font-size: 30px;
 			}
 			section{
 				padding: 10px 16px;
@@ -149,7 +149,8 @@ body,html{
 			}
 			.img{
 				right:0px;	
-				background-image: url('../images/d1.gif');
+				background-image: url('../images/team.png');
+				width: 100%;
 			}
 		}
 		.view:hover {
