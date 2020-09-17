@@ -131,7 +131,7 @@ body,html{
 				height: 90px;
 			}
 			body{
-				font-size: 30px;
+				font-size: 15px;
 			}
 			section{
 				padding: 10px 16px;
@@ -151,6 +151,9 @@ body,html{
 				right:0px;	
 				background-image: url('../images/team.png');
 				width: 100%;
+			}
+			.main{
+				font-size: 15px !important;
 			}
 		}
 		.view:hover {
