@@ -22,7 +22,8 @@
 		
 	</style>
 </head>
-<body>
+<body onload="myFunction()">
+	<div id="loading"></div>
 	<nav class="navbar navbar-inverse">
 	    <div class="container-fluid">
 		    <div class="navbar-header">
@@ -269,5 +270,12 @@
 			</div>
 		</div>	
 	</section>
+	<script>
+		var preloader = document.getElementById("loading");
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
 </body>
 </html>

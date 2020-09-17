@@ -21,7 +21,8 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body onload="myFunction()">
+  <div id="loading"></div>
   <nav class="navbar navbar-inverse" style="background-color: #0f0f0f;">
 
     <div class="container-fluid">
@@ -168,5 +169,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script src="../assets/js/bootstrap.min.js"></script>
+<script>
+    var preloader = document.getElementById("loading");
+
+    function myFunction(){
+      preloader.style.display = 'none';
+    };
+  </script>
 </body>
 </html>
