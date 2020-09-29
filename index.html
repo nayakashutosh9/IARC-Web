@@ -1,195 +1,251 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-	<title>IARC</title>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="assets/images/logo2.png" rel="icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,900;1,400;1,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>IARC-Cyborg</title>
+  <link rel="icon" href="assets/images/logo2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body onload="myFunction()">
-	<div id="loading"></div>
-	<nav class="navbar navbar-inverse">
-	    <div class="container-fluid">
-		    <div class="navbar-header">
-		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-		      	</button>
-		      	<a class="navbar-brand" href="index.html" style="color: #f7df75; margin-bottom: 10px; "><img src="assets/images/copter_grey.png" style="height: 30px; width: 50px; display: inline; margin-right: 10px; margin-bottom: 20px;" ></img><h2 style="display: inline;">IARC</h2></a>
-		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
-		     	<ul class="nav navbar-nav navbar-right">
-			        <li><a href="index.html"><p class="a">Home</p></a></li>
-			        <li><a href="views/team.html"><p class="a">Team</p></a></li>
-			        <li><a href="views/contact.html"><p class="a">Contact</p></a></li>
-			        <!-- <li><a href="#"><p class="a"><span class="glyphicon glyphicon-user"></span> Sign Up</p></a></li>
-			        <li><a href="#"><p class="a"><span class="glyphicon glyphicon-log-in"></span> Login</p></a></li> -->
-			    </ul>
-		    </div>
-	    </div>
-	</nav>
-	<div class="img">
-		<div class="text1">
-			<span class="border">
-				Homepage
-			</span>
-		</div>
-	</div>
-	<section>
-		<div class="row">
-			<div class="col-lg-6" style="margin-bottom: 200px;">
-				<img class="hc" src="assets/images/copter_grey - Copy.png"></img>
-				<br>
-				<span style="font-size:50px; color:#f7df75; ">IARC</span>
-			</div>
-			<div class="col-lg-6">
-				<h2>Part 1</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-				</p>
-			</div>
-		</div>
-		<div class="row">
+<body>
+  <!-- header -->
 
-					<div class="col-lg-3" style="border: 5px solid transparent;  padding-left: 0px; padding-right: 0px; overflow: hidden;">
-						<h2>Part 1</h2>
-						<img src="assets/images/4.jpg" style="position: relative; width: 100%;">
-						<p class="view" style="position: absolute; top: 63px; width: 100%; height: 100%; margin-left: auto; margin-right: auto; opacity: 1; z-index: 10; color: transparent;">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur.
+  <section id="home-section">
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo2.png" width="22%" alt="Cyborg">
+          </a>
+          <button class="navbar-toggler navbar-nav ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-						</p>
-					</div>
-					<div class="col-lg-3" style="border: 5px solid transparent;  padding-left: 0px; padding-right: 0px; overflow: hidden;">
-						<h2>Part 1</h2>
-						<img src="assets/images/3.jpg" style="position: relative; width: 100%;">
-						<p class="view" style="position: absolute; top: 63px; width: 100%; height: 100%; margin-left: auto; margin-right: auto; opacity: 1; z-index: 10;color: transparent;">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur.
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home-section" style="color:#ffffff;margin-right:2.5em;">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section" style="color:#ffffff;margin-right:2.5em;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team-section" style="color:#ffffff;margin-right:2.5em;">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section" style="color:#ffffff;margin-right:2.5em;">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br><br>
+      <br><br><br>
+      <br><br><br>
+      <br>
+      <div class="title-header container">
+        <h1 class="iarc">IARC</h1>
+        <h3 class="cyborg">Cyborg NITR</h3>
+      </div>
+      <br><br><br>
+    </div>
 
-						</p>
-					</div>
+  </section>
 
-					<div class="col-lg-3" style="border: 5px solid transparent;  padding-left: 0px; padding-right: 0px; overflow: hidden;">
-						<h2>Part 1</h2>
-						<img src="assets/images/1.jpg" style="position: relative; width: 100%;">
-						<p class="view" style="position: absolute; top: 63px; width: 100%; height: 100%; margin-left: auto; margin-right: auto; opacity: 1; z-index: 10;color: transparent;">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur.
+  <!-- about section -->
+  <section id="about-section" class="about">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img src="assets/images/robot.jpg" width="100%" height="100%" style="align:center;" alt="robot">
+      </div>
+      <div class=" about-right col-lg-6 col-md-6">
+        <h1>ABOUT</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis mi vitae arcu lacinia dictum. Nam ac metus eu purus fringilla blandit. Quisque eget euismod lorem. Duis ac pharetra ligula, quis viverra ante.</p>
+      </div>
+    </div>
+  </section>
 
-						</p>
-					</div>
-					<div class="col-lg-3" style="border: 5px solid transparent;  padding-left: 0px; padding-right: 0px; overflow: hidden;">
-						<h2>Part 1</h2>
-						<img src="assets/images/2.jpg" style="position: relative; width: 100%;">
-						<p class="view" style="position: absolute; top: 63px; width: 100%; height: 100%; margin-left: auto; margin-right: auto; opacity: 1; z-index: 10;color: transparent;">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur.
+  <!-- team section -->
+  <section id="team-section" class="team">
+    <br><br>
+    <h1>TEAM</h1>
+    <br><br>
+    <h3>Coding</h3>
+    <main class="page-content">
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Mountain View</h2>
+          <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+          <button class="btn">View Trips</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">To The Beach</h2>
+          <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+          <button class="btn">View Trips</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Desert Destinations</h2>
+          <p class="copy">It's the desert you've always dreamed of</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Explore The Galaxy</h2>
+          <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </main>
+    <br><br>
+    <h3>Electronics</h3>
+    <main class="page-content">
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Mountain View</h2>
+          <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+          <button class="btn">View Trips</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">To The Beach</h2>
+          <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+          <button class="btn">View Trips</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Desert Destinations</h2>
+          <p class="copy">It's the desert you've always dreamed of</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Explore The Galaxy</h2>
+          <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </main>
+    <br><br>
+    <h3>Mechanical</h3>
+    <main class="page-content">
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Mountain View</h2>
+          <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+          <button class="btn">View Trips</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">To The Beach</h2>
+          <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+          <button class="btn">View Trips</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Desert Destinations</h2>
+          <p class="copy">It's the desert you've always dreamed of</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2 class="title">Explore The Galaxy</h2>
+          <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </main>
+  </section>
 
-						</p>
-					</div>
+  <!-- contact section -->
+  <section id="contact-section" class="contact">
+    <div class="row">
+      <div class="contact-left col-lg-4 col-md-4">
+        <h1>CONTACT US</h1>
+        <div class="info">
+          <h2>ADDRESS</h2>
+          <p>SAC, NIT Rourkela. Pin-769008</p>
+          <h2>EMAIL</h2>
+          <p>cyborg.team.nitr@gmail.com</p>
+          <h2>PHONE</h2>
+          <p>+91 97787 56623</p>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8">
+        <div class="container">
+          <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="text" required />
+                <label>Name</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input">
+                <input type="text" required />
+                <label>Email</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="float:right;">
+                <input type="text" required />
+                <label>Phone Number</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <a href="index.html">
+                <div class="btn-lrg submit-btn" style="align:center;">Send Message</div>
+              </a>
+            </div>
+          </div>
+        </div>
 
-		</div>
-	</section>
-	<div class="img">
-		<div class="text1">
-			<span class="border">
-				IARC
-			</span>
-		</div>
-	</div>
-	<section>
-		<div class="row">
-			<div class="col-lg-6">
-				<h2>Part 1</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.
+      </div>
+    </div>
+  </section>
 
-				</p>
-			</div>
-			<div class="col-lg-6">
-				<h2>Part 1</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.
+  <div class="footer">
+    <br><br>
+    <!-- <ul>
+      <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+    </ul> -->
+    <br><br><br>
+    <p>Copyright © 2020 Cyborg NITR</p>
+  </div>
 
-				</p>
-			</div>
-		</div>
-	</section>
-	<section style="background-color: #0f0f0f;">
-		<div class="row">
-			<div class="col-lg-4">
-				<h2>SITE LINKS</h2>
-				<a href="index.html" class="sl" style="text-decoration: none;">Home</a>
-				<a href="views/team.html" class="sl" style="text-decoration: none;">Team</a>
-				<a href="views/contact.html" class="sl" style="text-decoration: none;">Contacts</a>
-			</div>
-			<div class="col-lg-4">
-				<h2>ABOUT US</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
-
-				</p>
-			</div>
-			<div class="col-lg-4" style="text-align: center;">
-				<h2>SOCIAL</h2>
-				<a href="#" class="fa fa-facebook" style="text-decoration: none; "></a>
-				<a href="#" class="fa fa-twitter" style="text-decoration: none;"></a>
-				<a href="#" class="fa fa-google" style="text-decoration: none;"></a>
-				<a href="#" class="fa fa-linkedin" style="text-decoration: none;"></a>
-			</div>
-		</div>
-	</section>
-	<script>
-		var preloader = document.getElementById("loading");
-
-		function myFunction(){
-			preloader.style.display = 'none';
-		};
-	</script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
 </html>
