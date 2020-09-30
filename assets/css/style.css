@@ -24,7 +24,7 @@ body{
   font-size: 10rem;
   font-weight: 900;
   text-align: center;
-  letter-spacing: 20px;
+  letter-spacing: 1.2rem;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.25em;
 }
@@ -69,6 +69,11 @@ body{
   }
   .about-right p{
     text-align: center;
+  }
+}
+@media (max-width: 500px){
+  .iarc{
+    font-size: 4rem;
   }
 }
 
