@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
+  overflow-x: hidden;
 }
 
 /* header section */
@@ -52,6 +53,7 @@ body {
 .about-right {
   margin-top: auto;
   margin-bottom: auto;
+  padding-left: 5%;
 }
 
 .about h1 {
@@ -85,6 +87,45 @@ body {
     font-size: 4rem;
   }
 }
+
+.about-cyborg {
+  background-color: #080808;
+  color:#49e65c ;
+  padding-left: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-cyborg-right {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about-cyborg h1 {
+  font-family: 'Roboto #49e65c 900', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #49e65c ;
+  letter-spacing: 1.5px;
+  margin-bottom: 1em;
+}
+
+.about-cyborg p {
+  max-width: 27em;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  color: #49e65c;
+}
+
+@media (max-width: 768px) {
+  .about-cyborg-right h1 {
+    text-align: center;
+  }
+
+  .about-cyborg-right p {
+    text-align: center;
+  }
+}
+
 
 /* team section */
 .team {
