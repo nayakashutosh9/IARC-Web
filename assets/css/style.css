@@ -126,6 +126,13 @@ body {
   }
 }
 
+/* subsystem */
+
+.subsystem{
+  background-color: #49e65c;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 /* team section */
 .team {
@@ -242,18 +249,63 @@ body {
 }
 
 .card:nth-child(1):before {
-  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+  background-image: url(https://images.yourstory.com/cs/1/b3cc3444ab5e11e88691f70342131e20/Whatissoftwareandtypesofsoftwarewithexamples1575272423828jpg);
 }
 
 .card:nth-child(2):before {
-  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+  background-image: url(https://www.airliquide.com/sites/airliquide.com/files/styles/retina_cover_page/public/electronics-electronic-components-banner-mobile.jpg?itok=pIir2cvn);
 }
 
 .card:nth-child(3):before {
-  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+  background-image: url(https://assets.skyfilabs.com/images/mechanical-mini-projects-cover-pic-min.jpg);
 }
 
 .card:nth-child(4):before {
+  background-image: url(https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg);
+}
+.card:nth-child(5):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(6):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(7):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(8):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+.card:nth-child(9):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(10):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(11):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(12):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+.card:nth-child(13):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(14):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(15):before {
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
+}
+
+.card:nth-child(16):before {
   background-image: url(https://qph.fs.quoracdn.net/main-qimg-10c1602acfd142669d22f47303f2414d);
 }
 
@@ -949,8 +1001,8 @@ input[type=checkbox]:checked+label {
 }
 
 .backInDown {
-  -webkit-animation: backInDown 1.5s;
-  animation: backInDown 1.5s;
+  -webkit-animation: backInDown 4s;
+  animation: backInDown 4s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
@@ -990,8 +1042,8 @@ input[type=checkbox]:checked+label {
 }
 
 .backInRight {
-  -webkit-animation: backInRight 1.5s;
-  animation: backInRight 1.5s;
+  -webkit-animation: backInRight 4s;
+  animation: backInRight 4s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
@@ -1031,8 +1083,8 @@ input[type=checkbox]:checked+label {
 }
 
 .backInLeft {
-  -webkit-animation: backInLeft 1.5s;
-  animation: backInLeft 1.5s;
+  -webkit-animation: backInLeft 4s;
+  animation: backInLeft 4s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
@@ -1072,8 +1124,8 @@ input[type=checkbox]:checked+label {
 }
 
 .backInUp {
-  -webkit-animation: backInUp 1.5s;
-  animation: backInUp 1.5s;
+  -webkit-animation: backInUp 4s;
+  animation: backInUp 4s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
@@ -1240,4 +1292,78 @@ input[type=checkbox]:checked+label {
   animation: backOutUp 1.5s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
+}
+
+
+
+
+
+/* preloader */
+.o-page-loader {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity .5s;
+    background: #030303;
+    z-index: 999;
+}
+
+.o-page-loader--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.o-page-loader--spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #49e65c;
+    margin: 20px auto;
+    animation: rotate-plane 1.2s infinite ease-in-out;
+    -webkit-animation: rotate-plane 1.2s infinite ease-in-out;
+}
+
+.o-page-loader--message {
+    color: #49e65c;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* --------------------------------------------------------------------------- */
+/* Animation - Loading Spinner
+/* --------------------------------------------------------------------------- */
+
+@-webkit-keyframes rotate-plane {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+
+@keyframes rotate-plane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
 }
